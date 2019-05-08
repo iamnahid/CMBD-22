@@ -62,5 +62,77 @@
     $prb2 = 45-22+23/5*5+(100+6/3*3);
     echo "<h5 style='color:red;'>"."45-22+23/5*5+(100+6/3*3) = ".$prb2."</h5></br>";
 
+    // DEFINE
+
+    define('Name', "Nahid");
+    define('Age', 24);
+    define('Gender','Male');
+
+    // Concat 
+
+    $d1 = "My Name Is ";
+    $d2 = "Nahid";
+    $concatData = $d1 . $d2;
+
+    $c1 = "Rony Kader";
+    $data = "My Mentor Name Is" ." ". $c1;
+
+    // Functions
+
+    function test(){
+        echo "This is Test Function";
+    }
+    function test1(){
+        echo "we are going to call Function TEst from Here. See Below"."</br>";
+        test();
+    }
+    function test2()
+    {   
+        $name = 'ABC';
+        $loc = "Dhaka";
+        $occ = "Nil";
+        echo "My Name Is: ".$name." ";;
+        echo "Location: ".$loc." ";;
+        echo "Occupation: ".$occ."</br>";
+    }
+    function test3($name, $loc, $occ)
+    {
+        echo "My Name Is: ".$name." ";
+        echo "Location: ".$loc." ";
+        echo "Occupation: ".$occ."</br>";
+        nahid();
+    }
+    function nahid()
+    {
+        echo "This is Test3 calling Nahid";
+    }
+
+
 ?>
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h3 style="color:blue;">Showcasing Define Variables</h3>
+        <h5>Name:  <?php echo Name?></h5>
+        <h5>Age:  <?php echo Age?></h5>
+        <h5>Gender:  <?php echo Gender?></h5>
+
+        <p style="text-decoration: underline;color:red;">Concat Data</p>
+        <br>
+        <?php echo $concatData; ?>
+        <br>
+        <?php echo $data; ?>
+        <p>STRLEN of $DATA = <?php echo strlen($data) ?></p>
+
+        <h3 style="color:blue;">Functions</h3>
+        <p><?php echo test() ?></p><br>
+        <p><?php echo test1() ?></p>
+        <br>
+        <p><?php echo test2() ?></p>
+        <br>
+        <p><?php echo test3('Nahid','Uttara','Web Developer') ?></p>
+    </body>
+</html>
     
