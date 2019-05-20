@@ -22,6 +22,7 @@
 
     // Variable operations (BIDMAS:Braces_Indices_Division_Multiplication_Addition_Substraction)
     $v1 = 100;
+    $v1 = 55;
     $v2 = 50;
     $v3 = 10;
     $v4 = 5;
@@ -71,8 +72,13 @@
     // Concat 
 
     $d1 = "My Name Is ";
+    echo strlen($d1)."</br>";
     $d2 = "Nahid";
+    echo strlen($d2)."</br>";
     $concatData = $d1 . $d2;
+    
+    echo strlen($concatData)."</br>";
+    echo "<h1 style='color:red;'>".$concatData."</h1>";
 
     $c1 = "Rony Kader";
     $data = "My Mentor Name Is" ." ". $c1;
