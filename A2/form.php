@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="form-group  text-center">
-                        <input type="submit" value="Submit" name="dataSubmit" id=class="btn btn-primary">
+                        <input type="submit" value="Submit" name="dataSubmit" class="btn btn-primary">
                     </div>   
                 </form>
                 <span style="color: green"><?=$sub["data"]?></span>
@@ -80,7 +80,6 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
