@@ -11,18 +11,19 @@
     <div class="footer">
         <span class="icons">      
             <h2>Meet Me At Social Networks</h2><br>
-            <a href="http://bit.ly/iamnahidfb" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/iamnahid_n9" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-google"></a>
-            <a href="http://bit.ly/linkiamnahid" class="fa fa-linkedin"></a>
-            <a href="https://instagram.com/iamnahid9" class="fa fa-instagram"></a>
-            <a href="http://bit.ly/iamnahidPinterest" class="fa fa-pinterest"></a>
-            <a href="https://dribbble.com/iamnahid" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-dribbble"></a>
             <a href="#" class="fa fa-flickr"></a>
             <a href="#" class="fa fa-yahoo"></a>
             <a href="#" class="fa fa-reddit"></a>
         </span>
         <span class="copy-right">&copy; iamnahid9 -Copyright 2019</span>
+
     </div>
 </body>
 </html>

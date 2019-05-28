@@ -1,0 +1,82 @@
+
+.title{
+    text-align:center;
+    width: 100%;
+    font-family: 'Bahnschrift Condensed',sans-serif;
+    color: #121313;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 55em;
+}
+
+.container{
+    text-align: center;
+    top: 20%;
+    left: 0%;
+    width: 20%;
+    height: 90%;
+}
+.form{
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+.details{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 40%;
+    height: 280px;
+    border: 2px solid lightcoral;
+    color: white;
+    background-color: #1c1c1d;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    font-size: 0.5em;
+}
+
+select{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+option{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ---------------For Card.php-------------- */
+
+.cardContent{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 65em;
+}
+#card{
+    border: 2px solid rgb(109, 202, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card{    
+    background-color: rgba(170, 247, 183, 0.767);
+}
+.card-title{
+    font-family: 'ZCOOL QingKe HuangYou',sans-serif;
+}
+.card-text{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Oxygen', sans-serif;
+}
